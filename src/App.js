@@ -166,11 +166,11 @@ function App() {
     <div className="App">
       <Header menuItems={HeaderItems} />
       <div className="app-sections">
-        <Section title={`1. Load your data`} loading={loading}>
+        <Section title={`1. Chargez vos données`} loading={loading}>
           <DataLoader {...dataLoader} hydrateFromProject={importProject} />
         </Section>
         {data && (
-          <Section title="2. Choose a chart">
+          <Section title="2. Choisissez un graphique">
             <ChartSelector
               availableCharts={charts}
               currentChart={currentChart}
@@ -179,7 +179,7 @@ function App() {
           </Section>
         )}
         {data && currentChart && (
-          <Section title={`3. Mapping`} loading={mappingLoading}>
+          <Section title={`3. Modélisation`} loading={mappingLoading}>
             <DataMapping
               ref={dataMappingRef}
               dimensions={currentChart.dimensions}
@@ -190,7 +190,7 @@ function App() {
           </Section>
         )}
         {data && currentChart && (
-          <Section title="4. Customize">
+          <Section title="4. Customiser">
             <ChartPreviewWithOptions
               chart={currentChart}
               dataset={data.dataset}
@@ -204,7 +204,7 @@ function App() {
           </Section>
         )}
         {data && currentChart && rawViz && (
-          <Section title="5. Export">
+          <Section title="5. Exporter">
             <Exporter rawViz={rawViz} exportProject={exportProject} />
           </Section>
         )}

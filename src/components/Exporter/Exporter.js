@@ -5,7 +5,7 @@ function downloadBlob(url, filename) {
   // Create a new anchor element
   const a = document.createElement('a')
   a.href = url
-  a.download = filename || 'download'
+  a.download = filename || 'téléchargement'
   a.click()
   return a
 }
@@ -117,7 +117,7 @@ export default function Exporter({ rawViz, exportProject }) {
 
       <div className="col col-sm-2">
         <button className="btn btn-primary btn-block raw-btn" onClick={downloadViz}>
-          Download
+          Télécharger
         </button>
       </div>
     </div>

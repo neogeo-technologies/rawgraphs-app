@@ -5,26 +5,26 @@ import {
   BsArrowCounterclockwise,
   BsArrowRepeat,
   BsClipboard,
-  BsCloud,
-  BsFolder,
-  BsGift,
+  //BsCloud,
+  //BsFolder,
+  //BsGift,
   BsSearch,
   BsUpload,
 } from 'react-icons/bs'
 import { DATA_LOADER_MODE } from '../../hooks/useDataLoader'
 import DataGrid from '../DataGrid/DataGrid'
-import DataSamples from '../DataSamples/DataSamples'
+//import DataSamples from '../DataSamples/DataSamples'
 import JsonViewer from '../JsonViewer'
 import ParsingOptions from '../ParsingOptions'
 import styles from './DataLoader.module.scss'
-import LoadProject from './loaders/LoadProject'
+//import LoadProject from './loaders/LoadProject'
 import Paste from './loaders/Paste'
 import UploadFile from './loaders/UploadFile'
 import UrlFetch from './loaders/UrlFetch'
 import Loading from './loading'
 import WarningMessage from '../WarningMessage'
 import DataMismatchModal from './DataMismatchModal'
-import SparqlFetch from './loaders/SparqlFetch'
+//import SparqlFetch from './loaders/SparqlFetch'
 
 function DataLoader({
   userInput,
@@ -46,23 +46,23 @@ function DataLoader({
   data,
   loading,
   coerceTypes,
-  loadSample,
+  //loadSample,
   handleInlineEdit,
   handleStackOperation,
   setJsonData,
-  resetDataLoader,
+  //resetDataLoader,
   dataLoaderMode,
   startDataReplace,
   cancelDataReplace,
   commitDataReplace,
   replaceRequiresConfirmation,
-  hydrateFromProject,
+  //hydrateFromProject,
 }) {
   const [loadingError, setLoadingError] = useState()
   const options = [
     {
       id: 'paste',
-      name: 'Paste your data',
+      name: 'Coller vos données',
       loader: (
         <Paste
           userInput={userInput}
@@ -71,13 +71,13 @@ function DataLoader({
         />
       ),
       message:
-        'Copy and paste your data from other applications or websites. You can use tabular (TSV, CSV, DSV) or JSON data.',
+        'Copier et coller vos données depuis d\'autres applications ou sites web. Vous pouvez utiliser des données de types tableaux (TSV, CSV, DSV) ou JSON.',
       icon: BsClipboard,
       allowedForReplace: true,
     },
     {
       id: 'upload',
-      name: 'Upload your data',
+      name: 'Télécharger'/*  vos données' */,
       loader: (
         <UploadFile
           userInput={userInput}
@@ -85,13 +85,13 @@ function DataLoader({
           setLoadingError={setLoadingError}
         />
       ),
-      message: 'You can load tabular (TSV, CSV, DSV) or JSON data.',
+      message: 'Vous pouvez téléchargez des données de types tableaux (TSV, CSV, DSV) ou JSON.',
       icon: BsUpload,
       allowedForReplace: true,
     },
-    {
+/*     {
       id: 'samples',
-      name: 'Try our data samples',
+      name: 'Essayez nos données',
       message: '',
       loader: (
         <DataSamples
@@ -101,11 +101,11 @@ function DataLoader({
       ),
       icon: BsGift,
       allowedForReplace: true,
-    },
-    {
+    }, */
+    /* {
       id: 'sparql',
-      name: 'SPARQL query',
-      message: 'Load data with a SparQL query',
+      name: 'Requête SPARQL',
+      message: 'Chargez des données depuis une requête SparQL',
       loader: (
         <SparqlFetch
           userInput={userInput}
@@ -116,12 +116,12 @@ function DataLoader({
       icon: BsCloud,
       disabled: false,
       allowedForReplace: true,
-    },
+    }, */
     {
       id: 'url',
-      name: 'From URL',
+      name: 'Depuis une URL',
       message:
-        'Enter a web address (URL) pointing to the data (e.g. a public Dropbox file, a public API, ...). Please, be sure the server is CORS-enabled.',
+        'Entrez une adresse web (URL) pointant vers les données (ex: fichier Dropbox public, une API publique, ...). Vérifiez que le serveur ait bien les CORS activés.',
       loader: (
         <UrlFetch
           userInput={userInput}
@@ -133,7 +133,7 @@ function DataLoader({
       disabled: false,
       allowedForReplace: true,
     },
-    {
+/*     {
       id: 'project',
       name: 'Open your project',
       message: 'Load a .rawgraphs project.',
@@ -145,7 +145,7 @@ function DataLoader({
       ),
       icon: BsFolder,
       allowedForReplace: false,
-    },
+    }, */
   ]
   const [optionIndex, setOptionIndex] = useState(0)
   const selectedOption = options[optionIndex]
@@ -286,7 +286,7 @@ function DataLoader({
                   onClick={reloadRAW}
                 >
                   <BsArrowRepeat className="mr-2" />
-                  <h4 className="m-0 d-inline-block">{'Reset'}</h4>
+                  <h4 className="m-0 d-inline-block">{'Réinitialiser'}</h4>
                 </div>
 
                 <div
@@ -331,7 +331,7 @@ function DataLoader({
               onClick={reloadRAW}
             >
               <BsArrowRepeat className="mr-2" />
-              <h4 className="m-0 d-inline-block">{'Reset'}</h4>
+              <h4 className="m-0 d-inline-block">{'Réinitialiser'}</h4>
             </div>
 
             <div
@@ -342,7 +342,7 @@ function DataLoader({
               }}
             >
               <BsArrowCounterclockwise className="mr-2" />
-              <h4 className="m-0 d-inline-block">{'Change data'}</h4>
+              <h4 className="m-0 d-inline-block">{'Changer les données'}</h4>
             </div>
           </Col>
         )}
@@ -357,12 +357,11 @@ function DataLoader({
                   message={
                     <span>
                       <span className="font-weight-bold">
-                        {data.dataset.length} rows
+                        {data.dataset.length} lignes
                       </span>{' '}
                       (
                       {data.dataset.length * Object.keys(data.dataTypes).length}{' '}
-                      cells) have been successfully parsed, now you can choose a
-                      chart!
+                      cellules) ont été analysées, maintenant vous pouvez choisir un graphique !
                     </span>
                   }
                 />

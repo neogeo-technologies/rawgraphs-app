@@ -84,10 +84,10 @@ export const localeList = {
 export const WEBWORKER_ACTIVE = true
 
 export const separatorsLabels = {
-  '\\t': 'Tab',
-  ';': 'Semicolon',
-  ',': 'Comma',
-  '|': 'Pipe',
+  '\\t': 'Tabulation',
+  ';': 'Point-virgule',
+  ',': 'Virgule',
+  '|': 'Barre verticale',
 }
 
 export const separatorsList = Object.keys(separatorsLabels)

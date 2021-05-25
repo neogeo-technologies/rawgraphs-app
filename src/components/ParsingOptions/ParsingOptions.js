@@ -32,24 +32,24 @@ export default function ParsingOptions(props) {
   return (
     <Row>
       <Col className={styles.parsingOptions}>
-        <b>DATA PARSING OPTIONS</b>
+        <b>OPTIONS D'ANALYSE DES DONNÉES</b>
 
         {props.userDataType === 'csv' && (
           <SeparatorSelector
-            title="Column separator"
+            title="Séparateur colonnes"
             value={props.separator}
             onChange={(nextSeparator) => props.setSeparator(nextSeparator)}
           />
         )}
         <ThousandsSeparatorSelector
-          title="Thousands separator"
+          title="Séparateur milliers"
           value={props.thousandsSeparator}
           onChange={(nextSeparator) =>
             props.setThousandsSeparator(nextSeparator)
           }
         />
         <DecimalsSeparatorSelector
-          title="Decimals separator"
+          title="Séparateur décimales"
           value={props.decimalsSeparator}
           onChange={(nextSeparator) =>
             props.setDecimalsSeparator(nextSeparator)
@@ -57,7 +57,7 @@ export default function ParsingOptions(props) {
         />
 
         <DateLocaleSelector
-          title="Date Locale"
+          title="Date locale"
           value={props.locale}
           onChange={(nextLocale) => props.setLocale(nextLocale)}
         />
@@ -69,16 +69,16 @@ export default function ParsingOptions(props) {
             onClick={() => refreshData()}
           >
             <BsArrowRepeat className="mr-2" />
-            {get(dataRefreshCaptions, get(props.dataSource, 'type', ''), "Refresh data")}
+            {get(dataRefreshCaptions, get(props.dataSource, 'type', ''), "Rafraîchir les données")}
           </Button>
         )}
 
         <div className="divider mb-3 mt-0" />
 
-        <b>DATA TRANSFORMATION</b>
+        <b>TRANSFORMATION DES DONNÉES</b>
 
         <StackSelector
-          title="Stack on"
+          title="Empiler sur"
           value={props.stackDimension}
           list={props.dimensions}
           onChange={(nextStackDimension) =>

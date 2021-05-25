@@ -272,13 +272,15 @@ const ChartDimensionCard = ({
             })}
             ref={drop}
           >
-            {!dimension.multiple && 'Drop dimension here'}
+            {!dimension.multiple && 'Glisser la valeur ici'}
             {dimension.multiple &&
               columnsMappedHere.length === 0 &&
-              'Drop dimensions here'}
+              'Glisser les valeurs ici'}
+              {/* 'Drop dimensions here'} */}
             {dimension.multiple &&
               columnsMappedHere.length > 0 &&
-              'Drop another dimension here'}
+              /* 'Drop another dimension here'} */
+              'Glisser une autre valeur ici'}
           </div>
         )}
       </div>

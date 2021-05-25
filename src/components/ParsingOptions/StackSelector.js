@@ -26,12 +26,12 @@ export default function StackSelector({
           className="truncate-160px"
           disabled={list.length === 0}
         >
-          {value ? value : 'Column'}
+          {value ? value : 'Colonne'}
         </Dropdown.Toggle>
         <Dropdown.Menu>
           {value && (
             <Dropdown.Item onSelect={() => handleChange(null)}>
-              {'Do not stack'}
+              {'Ne pas empiler'}
             </Dropdown.Item>
           )}
           {Object.keys(list).map((d) => {
