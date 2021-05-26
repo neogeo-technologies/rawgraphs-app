@@ -5,13 +5,13 @@ import uniq from 'lodash/uniq'
 import styles from './ChartSelector.module.scss'
 
 function filterCharts(charts, filter) {
-  return filter === 'All charts'
+  return filter === 'Tous les graphiques'
     ? charts
     : charts.filter((d) => d.metadata.categories.indexOf(filter) !== -1)
 }
 
 function ChartSelector({ availableCharts, currentChart, setCurrentChart }) {
-  const [filter, setFilter] = useState('All charts')
+  const [filter, setFilter] = useState('Tous les graphiques')
 
   const charts = useMemo(() => {
     return filterCharts(availableCharts, filter)
@@ -36,10 +36,10 @@ function ChartSelector({ availableCharts, currentChart, setCurrentChart }) {
             </Dropdown.Toggle>
             <Dropdown.Menu>
               <Dropdown.Item
-                key={'All charts'}
-                onClick={() => handleFilterChange('All charts')}
+                key={'Tous les graphiques'}
+                onClick={() => handleFilterChange('Tous les graphiques')}
               >
-                All charts
+                Tous les graphiques
               </Dropdown.Item>
               {uniq(
                 availableCharts.map((d) => d.metadata.categories).flat()
