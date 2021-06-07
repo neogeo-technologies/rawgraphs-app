@@ -20,7 +20,7 @@ import styles from './DataLoader.module.scss'
 //import LoadProject from './loaders/LoadProject'
 import Paste from './loaders/Paste'
 import UploadFile from './loaders/UploadFile'
-import UrlFetch, { fetchData } from './loaders/UrlFetch'
+import UrlFetch from './loaders/UrlFetch'
 import Loading from './loading'
 import WarningMessage from '../WarningMessage'
 import DataMismatchModal from './DataMismatchModal'
@@ -148,34 +148,60 @@ function DataLoader({
     }, */
   ]
 
-  async function getDataFromUrl(data_url) {
+  //async function getDataFromUrl(data_url) {
     // userInput = csv_url;
     // console.log(UrlFetch());
-    userData = await fetchData({url: data_url});
+    //userData = await fetchData({url: data_url});
     //console.log("userData", userData)
     // console.log(UrlFetch.userInput);
     // UrlFetch({userInput : (csv_url, { type: 'file' })})
-  }
+  //}
   
-  let initialOption = 0
   const params = new URLSearchParams(window.location.search);
   const csv_url = params.get("csv_url");
-  if (csv_url) {
-    initialOption = 2; // index should correspond to matching option above
-    console.log("csv_url 😁 :", csv_url);
-    const data = getDataFromUrl(csv_url);
-    setUserInput(data, csv_url)
+  
+  let initialOption = csv_url ? 2 : 0;  // index should correspond to matching option above
+  
+  const [optionIndex, setOptionIndex] = useState(initialOption)
+  const selectedOption = options[optionIndex]
 
-   // UrlFetch({userInput: csv_url, setUserInput, setLoadingError})
+  
+  if (csv_url) {
+    //let globalID;
+    console.trace("csv_url 😁 :", csv_url);
+    function simulateInput(inputElt, data_url) {
+      let nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
+      nativeInputValueSetter.call(inputElt, data_url); // replace input value
+      let ev2 = new Event('input', { bubbles: true});
+      inputElt.dispatchEvent(ev2);
+    };
+      setTimeout(() => {
+        let inputElt = document.querySelector("input.w-100")
+        simulateInput(inputElt, csv_url)
+        let url = window.location.href.split("?")[0]
+        window.history.pushState({}, '', url);
+      }, 1000);
+   /*  function waitInputElt() {
+      let inputElt = document.querySelector("input.w-100")
+      console.log("Elt = ", inputElt)
+      if (!inputElt) {
+        globalID = window.requestAnimationFrame(waitInputElt);
+        console.log("not ready");
+      } else {
+        console.log("READY : ", inputElt);
+        simulateInput(inputElt, csv_url)
+        console.log("globalID", globalID)
+        debugger
+        cancelAnimationFrame(globalID);
+      }
+    }; */
+    //waitInputElt()
+    //globalID = window.requestAnimationFrame(waitInputElt);
+    //console.log("globalID", globalID)
   } else {
     console.log("NO csv_url")
   }
 
-  const [optionIndex, setOptionIndex] = useState(initialOption)
-  const selectedOption = options[optionIndex]
-
-  console.log(options[optionIndex])
-  //console.log(userData, data)
   let mainContent
   if (userData && data) {
     mainContent = (
