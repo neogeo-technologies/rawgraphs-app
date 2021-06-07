@@ -9,8 +9,14 @@ export async function fetchData(source) {
 }
 
 export default function UrlFetch({ userInput, setUserInput, setLoadingError }) {
-  const [url, setUrl] = useState('')
-
+  /* let autoLoad = false;
+  if (!userInput) {
+    userInput = 'https://nextcloud.neogeo.fr/s/ctsSg9FbRpJ3Dr7/download/test copy.json';
+  } else {
+    autoLoad = true;
+  } */
+  const [url, setUrl] = useState(userInput)
+  
   const fetchUrl = async (url) => {
     const source = { type: 'url', url }
     let data
@@ -22,14 +28,21 @@ export default function UrlFetch({ userInput, setUserInput, setLoadingError }) {
       setLoadingError("Loading error. "+e.message)
     }
   }
-  return (
-    <input
+  /* console.log("autoLoad", autoLoad)
+  if (autoLoad) {
+    setUrl(userInput);
+    fetchUrl(userInput);
+  } else { */
+
+    return (
+      <input
       className={classNames('w-100', S['url-input'])}
       value={url}
       onChange={(e) => {
         setUrl(e.target.value)
         fetchUrl(e.target.value)
       }}
-    />
-  )
+      />
+      )
+  //  }
 }

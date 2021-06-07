@@ -20,7 +20,7 @@ import styles from './DataLoader.module.scss'
 //import LoadProject from './loaders/LoadProject'
 import Paste from './loaders/Paste'
 import UploadFile from './loaders/UploadFile'
-import UrlFetch from './loaders/UrlFetch'
+import UrlFetch, { fetchData } from './loaders/UrlFetch'
 import Loading from './loading'
 import WarningMessage from '../WarningMessage'
 import DataMismatchModal from './DataMismatchModal'
@@ -147,9 +147,35 @@ function DataLoader({
       allowedForReplace: false,
     }, */
   ]
-  const [optionIndex, setOptionIndex] = useState(0)
+
+  async function getDataFromUrl(data_url) {
+    // userInput = csv_url;
+    // console.log(UrlFetch());
+    userData = await fetchData({url: data_url});
+    //console.log("userData", userData)
+    // console.log(UrlFetch.userInput);
+    // UrlFetch({userInput : (csv_url, { type: 'file' })})
+  }
+  
+  let initialOption = 0
+  const params = new URLSearchParams(window.location.search);
+  const csv_url = params.get("csv_url");
+  if (csv_url) {
+    initialOption = 2; // index should correspond to matching option above
+    console.log("csv_url 😁 :", csv_url);
+    const data = getDataFromUrl(csv_url);
+    setUserInput(data, csv_url)
+
+   // UrlFetch({userInput: csv_url, setUserInput, setLoadingError})
+  } else {
+    console.log("NO csv_url")
+  }
+
+  const [optionIndex, setOptionIndex] = useState(initialOption)
   const selectedOption = options[optionIndex]
 
+  console.log(options[optionIndex])
+  //console.log(userData, data)
   let mainContent
   if (userData && data) {
     mainContent = (
