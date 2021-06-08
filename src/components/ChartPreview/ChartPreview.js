@@ -37,7 +37,7 @@ const ChartPreview = ({
     if (requiredVariables.length > 0) {
       let errorMessage = (
         <span>
-          Required chart variables: you need to map{' '}
+          Variables du graphique à renseigner: vous devez modéliser {' '}
           {requiredVariables
             .map((d, i) => <span key={i} className="font-weight-bold">{d.name}</span>)
             .reduce((prev, curr) => [prev, ' and ', curr])}
@@ -62,12 +62,12 @@ const ChartPreview = ({
     if (multivaluesVariables.length > 0) {
       let errorMessage = (
         <span>
-          Please map{' '}
+          Veuillez modéliser {' '}
           {multivaluesVariables
             .map((d) => (
               <>
-                at least <span className="font-weight-bold">{d.minValues}</span>{' '}
-                dimensions on <span className="font-weight-bold">{d.name}</span>
+                au moins <span className="font-weight-bold">{d.minValues}</span>{' '}
+                dimensions sur <span className="font-weight-bold">{d.name}</span>
               </>
             ))
             .reduce((prev, curr) => [prev, ' and ', curr])}
@@ -90,7 +90,7 @@ const ChartPreview = ({
         !mapping[variable].isValid
       ) {
         const variableObj = chart.dimensions.find((d) => d.id === variable)
-        const errorMessage = `Data-type mismatch: you can’t map ${mapping[variable].mappedType}s on ${variableObj.name}.`
+        const errorMessage = `Types de données non-concordants: vous ne pouvez pas modéliser des données de type "${mapping[variable].mappedType}s" sur ${variableObj.name}.`
         setError({ variant: 'danger', message: errorMessage })
         setRawViz(null)
         while (domRef.current.firstChild) {

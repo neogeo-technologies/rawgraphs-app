@@ -18,8 +18,8 @@ const dataRefreshWorkers = {
 }
 
 const dataRefreshCaptions = {
-  "url": "Refresh data from url",
-  "sparql": "Refresh data from query"
+  "url": "Actualiser données depuis url",
+  "sparql": "Actualiser données depuis requêtes"
 }
 
 export default function ParsingOptions(props) {

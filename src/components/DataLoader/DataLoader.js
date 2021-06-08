@@ -181,23 +181,6 @@ function DataLoader({
         let url = window.location.href.split("?")[0]
         window.history.pushState({}, '', url);
       }, 1000);
-   /*  function waitInputElt() {
-      let inputElt = document.querySelector("input.w-100")
-      console.log("Elt = ", inputElt)
-      if (!inputElt) {
-        globalID = window.requestAnimationFrame(waitInputElt);
-        console.log("not ready");
-      } else {
-        console.log("READY : ", inputElt);
-        simulateInput(inputElt, csv_url)
-        console.log("globalID", globalID)
-        debugger
-        cancelAnimationFrame(globalID);
-      }
-    }; */
-    //waitInputElt()
-    //globalID = window.requestAnimationFrame(waitInputElt);
-    //console.log("globalID", globalID)
   } else {
     console.log("NO csv_url")
   }
@@ -252,30 +235,30 @@ function DataLoader({
     const column = Object.keys(errors[0].error)[0]
     return (
       <span>
-        Ops, please check <span className="font-weight-bold">row {row}</span> at
-        column <span className="font-weight-bold">{column}</span>.{' '}
+        Oups, veuillez vérifier <span className="font-weight-bold">la ligne {row}</span> à
+        la colonne <span className="font-weight-bold">{column}</span>.{' '}
         {errors.length === 2 && (
           <>
             {' '}
-            There's another issue at row{' '}
+            Il y a un autre problème à la ligne {' '}
             <span className="font-weight-bold">{errors[1].row + 1}</span>.{' '}
           </>
         )}
         {errors.length > 2 && (
           <>
             {' '}
-            There are issues in{' '}
-            <span className="font-weight-bold">{errors.length - 1}</span> more
-            rows.{' '}
+            Il y a des problèmes dans {' '}
+            <span className="font-weight-bold">{errors.length - 1}</span> lignes
+            supplémentaires.{' '}
           </>
         )}
         {successRows > 0 && (
           <>
-            The remaining{' '}
+            {successRows > 1 ? 'Les' : 'La' } {' '}
             <span className="font-weight-bold">
-              {successRows} row{successRows > 1 && <>s</>}
+              {successRows > 1 && successRows} ligne{successRows > 1 && <>s</>} restante{successRows > 1 && <>s</>}
             </span>{' '}
-            look{successRows === 1 && <>s</>} fine.
+            {successRows > 1 ? 'ont' : 'a' } l'air correcte{successRows > 1 && <>s</>}.
           </>
         )}
       </span>
