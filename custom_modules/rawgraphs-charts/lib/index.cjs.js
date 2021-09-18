@@ -320,21 +320,21 @@ const visualOptions = {
   },
   xOrigin: {
     type: 'boolean',
-    label: 'Set X origin to 0',
+    label: 'origine X à 0',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
   },
   yOrigin: {
     type: 'boolean',
-    label: 'Set Y origin to 0',
+    label: 'origine Y à 0',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
   },
   maxDiameter: {
     type: 'number',
-    label: 'Max diameter',
+    label: 'Diamètre max',
     default: 15,
     step: 1,
     group: 'chart',
@@ -342,7 +342,7 @@ const visualOptions = {
   },
   showStroke: {
     type: 'boolean',
-    label: 'Show stroke',
+    label: 'Afficher le contour',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
@@ -356,7 +356,7 @@ const visualOptions = {
   },
   dotsDiameter: {
     type: 'number',
-    label: 'Dots diameter',
+    label: 'Diamètre des points',
     default: 2,
     group: 'chart',
     disabled: {
@@ -366,7 +366,7 @@ const visualOptions = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -394,13 +394,13 @@ const visualOptions = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels'
   },
   autoHideLabels: {
     type: 'boolean',
-    label: 'Auto hide labels',
+    label: 'Cacher automatiquement les labels',
     default: false,
     group: 'labels'
   }
@@ -1403,7 +1403,7 @@ const visualOptions$1 = {
   },
   dotsDiameter: {
     type: 'number',
-    label: 'Dots diameter',
+    label: 'Diamètre des points',
     default: 2,
     group: 'chart',
     disabled: {
@@ -1449,7 +1449,7 @@ const visualOptions$1 = {
   },
   yOrigin: {
     type: 'boolean',
-    label: 'Set Y origin to 0',
+    label: 'origine Y à 0',
     default: false,
     group: 'chart',
     requiredDimensions: ['y']
@@ -1509,7 +1509,7 @@ const visualOptions$1 = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -1571,7 +1571,7 @@ function render$2(svgNode, data, visualOptions, mapping, originalData) {
 const visualOptions$2 = {
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -1934,13 +1934,13 @@ const visualOptions$3 = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels'
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -2213,7 +2213,7 @@ const visualOptions$4 = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -2266,13 +2266,13 @@ const visualOptions$4 = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels'
   },
   autoHideLabels: {
     type: 'boolean',
-    label: 'Auto hide labels',
+    label: 'Cacher automatiquement les labels',
     default: false,
     group: 'labels'
   }
@@ -2448,7 +2448,7 @@ const visualOptions$5 = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'source',
     default: {
       scaleType: 'ordinal',
@@ -2742,7 +2742,7 @@ const visualOptions$6 = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'source',
     default: {
       scaleType: 'ordinal',
@@ -3050,7 +3050,7 @@ const visualOptions$7 = {
   },
   maxDiameter: {
     type: 'number',
-    label: 'Max diameter',
+    label: 'Diamètre max',
     default: 20,
     group: 'chart'
   },
@@ -3069,7 +3069,7 @@ const visualOptions$7 = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -3097,13 +3097,13 @@ const visualOptions$7 = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels'
   },
   autoHideLabels: {
     type: 'boolean',
-    label: 'Auto hide labels',
+    label: 'Cacher automatiquement les labels',
     default: false,
     group: 'labels'
   }
@@ -3368,7 +3368,7 @@ const visualOptions$8 = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -3396,7 +3396,7 @@ const visualOptions$8 = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels'
   },
@@ -3682,7 +3682,7 @@ const visualOptions$9 = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -3710,7 +3710,7 @@ const visualOptions$9 = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels'
   },
@@ -3738,7 +3738,7 @@ const visualOptions$9 = {
   },
   autoHideLabels: {
     type: 'boolean',
-    label: 'Auto hide labels',
+    label: 'Cacher automatiquement les labels',
     default: false,
     group: 'labels'
   }
@@ -4018,7 +4018,7 @@ const visualOptions$a = {
   },
   maxDiameter: {
     type: 'number',
-    label: 'Max diameter',
+    label: 'Diamètre max',
     default: 20,
     group: 'chart'
   },
@@ -4063,7 +4063,7 @@ const visualOptions$a = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -4097,7 +4097,7 @@ const visualOptions$a = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels'
   }
@@ -4385,7 +4385,7 @@ const visualOptions$b = {
   },
   maxDiameter: {
     type: 'number',
-    label: 'Maximum diameter',
+    label: 'diamètre maximum',
     default: 20,
     group: 'chart'
   },
@@ -4480,7 +4480,7 @@ const visualOptions$b = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels'
   }
@@ -5165,7 +5165,7 @@ const visualOptions$d = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'bars',
     default: {
       scaleType: 'ordinal',
@@ -5506,7 +5506,7 @@ const visualOptions$e = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'bars',
     default: {
       scaleType: 'ordinal',
@@ -5791,7 +5791,7 @@ const visualOptions$f = {
   },
   dotsDiameter: {
     type: 'number',
-    label: 'Dots diameter',
+    label: 'Diamètre des points',
     default: 2,
     group: 'chart',
     disabled: {
@@ -5828,7 +5828,7 @@ const visualOptions$f = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -6135,7 +6135,7 @@ const visualOptions$g = {
   },
   maxDiameter: {
     type: 'number',
-    label: 'Max diameter',
+    label: 'Diamètre max',
     default: 30,
     group: 'chart'
   },
@@ -6458,7 +6458,7 @@ const visualOptions$h = {
   },
   dotsDiameter: {
     type: 'number',
-    label: 'Dots diameter',
+    label: 'Diamètre des points',
     disabled: {
       showDots: false
     },
@@ -6486,7 +6486,7 @@ const visualOptions$h = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -6713,13 +6713,13 @@ const visualOptions$i = {
   },
   dotsDiameter: {
     type: 'number',
-    label: 'Dots diameter',
+    label: 'Diamètre des points',
     default: 2,
     group: 'chart'
   },
   yOrigin: {
     type: 'boolean',
-    label: 'Set Y origin to 0',
+    label: 'origine Y à 0',
     default: false,
     group: 'chart'
   },
@@ -6744,7 +6744,7 @@ const visualOptions$i = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -6979,14 +6979,14 @@ const visualOptions$j = {
   },
   xOrigin: {
     type: 'boolean',
-    label: 'Set X origin to 0',
+    label: 'origine X à 0',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
   },
   yOrigin: {
     type: 'boolean',
-    label: 'Set Y origin to 0',
+    label: 'origine Y à 0',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
@@ -7015,7 +7015,7 @@ const visualOptions$j = {
   },
   dotsDiameter: {
     type: 'number',
-    label: 'Dots diameter',
+    label: 'Diamètre des points',
     default: 2,
     group: 'chart',
     disabled: {
@@ -7025,7 +7025,7 @@ const visualOptions$j = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     //dimension: 'color',
     domain: 'colorDomain',
     default: {
@@ -7044,14 +7044,14 @@ const visualOptions$j = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels',
     requiredDimensions: ['x', 'y']
   },
   autoHideLabels: {
     type: 'boolean',
-    label: 'Auto hide labels',
+    label: 'Cacher automatiquement les labels',
     default: false,
     group: 'labels',
     requiredDimensions: ['x', 'y']
@@ -7312,14 +7312,14 @@ const visualOptions$k = {
   },
   xOrigin: {
     type: 'boolean',
-    label: 'Set X origin to 0',
+    label: 'origine X à 0',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
   },
   yOrigin: {
     type: 'boolean',
-    label: 'Set Y origin to 0',
+    label: 'origine Y à 0',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
@@ -7342,7 +7342,7 @@ const visualOptions$k = {
   },
   dotsDiameter: {
     type: 'number',
-    label: 'Dots diameter',
+    label: 'Diamètre des points',
     default: 2,
     group: 'chart',
     disabled: {
@@ -7352,7 +7352,7 @@ const visualOptions$k = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     domain: 'colorDomain',
     default: {
       scaleType: 'sequential',
@@ -7382,7 +7382,7 @@ const visualOptions$k = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels',
     disabled: {
@@ -7392,7 +7392,7 @@ const visualOptions$k = {
   },
   autoHideLabels: {
     type: 'boolean',
-    label: 'Auto hide labels',
+    label: 'Cacher automatiquement les labels',
     default: false,
     group: 'labels',
     disabled: {
@@ -7833,7 +7833,7 @@ const visualOptions$l = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'streams',
     default: {
       scaleType: 'ordinal',
@@ -7859,7 +7859,7 @@ const visualOptions$l = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'Labels',
     disabled: {
@@ -8085,14 +8085,14 @@ const visualOptions$m = {
   },
   xOrigin: {
     type: 'boolean',
-    label: 'Set X origin to 0',
+    label: 'origine X à 0',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
   },
   yOrigin: {
     type: 'boolean',
-    label: 'Set Y origin to 0',
+    label: 'origine Y à 0',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
@@ -8125,7 +8125,7 @@ const visualOptions$m = {
   },
   dotsDiameter: {
     type: 'number',
-    label: 'Dots diameter',
+    label: 'Diamètre des points',
     default: 2,
     group: 'chart',
     disabled: {
@@ -8135,7 +8135,7 @@ const visualOptions$m = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'group',
     default: {
       scaleType: 'ordinal',
@@ -8165,14 +8165,14 @@ const visualOptions$m = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels',
     requiredDimensions: ['x', 'y', 'label']
   },
   autoHideLabels: {
     type: 'boolean',
-    label: 'Auto hide labels',
+    label: 'Cacher automatiquement les labels',
     default: false,
     group: 'labels',
     requiredDimensions: ['x', 'y', 'label']
@@ -8625,7 +8625,7 @@ const visualOptions$n = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'streams',
     default: {
       scaleType: 'ordinal',
@@ -8651,7 +8651,7 @@ const visualOptions$n = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'Labels',
     disabled: {
@@ -8894,7 +8894,7 @@ const visualOptions$o = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -9111,21 +9111,21 @@ const visualOptions$p = {
   },
   xOrigin: {
     type: 'boolean',
-    label: 'Set X origin to 0',
+    label: 'origine X à 0',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
   },
   yOrigin: {
     type: 'boolean',
-    label: 'Set Y origin to 0',
+    label: 'origine Y à 0',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
   },
   showStroke: {
     type: 'boolean',
-    label: 'Show stroke',
+    label: 'Afficher le contour',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
@@ -9139,7 +9139,7 @@ const visualOptions$p = {
   },
   dotsDiameter: {
     type: 'number',
-    label: 'Dots diameter',
+    label: 'Diamètre des points',
     default: 2,
     group: 'chart',
     disabled: {
@@ -9149,7 +9149,7 @@ const visualOptions$p = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -9177,13 +9177,13 @@ const visualOptions$p = {
   },
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: 'Afficher le contour',
     default: false,
     group: 'labels'
   },
   autoHideLabels: {
     type: 'boolean',
-    label: 'Auto hide labels',
+    label: 'Cacher automatiquement les labels',
     default: false,
     group: 'labels'
   }
@@ -9420,7 +9420,7 @@ const visualOptions$q = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -9618,7 +9618,7 @@ const visualOptions$r = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
