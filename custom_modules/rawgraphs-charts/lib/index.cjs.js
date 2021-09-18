@@ -277,37 +277,37 @@ function render(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 50,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 50,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 50,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -1354,37 +1354,37 @@ function render$1(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$1 = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 10,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 15,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 20,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -1838,37 +1838,37 @@ function render$3(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$3 = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 100,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 50,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 50,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -2164,37 +2164,37 @@ function render$4(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$4 = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 10,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 10,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 10,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -2399,25 +2399,25 @@ function render$5(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$5 = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 10,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 10,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 10,
     group: 'artboard'
   },
@@ -2664,25 +2664,25 @@ function render$6(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$6 = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 10,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 10,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 10,
     group: 'artboard'
   },
@@ -3001,37 +3001,37 @@ function render$7(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$7 = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 10,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 50,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 50,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -3297,37 +3297,37 @@ function render$8(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$8 = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 10,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 10,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 10,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -3617,37 +3617,37 @@ function render$9(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$9 = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 20,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 20,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 20,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 20,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -3994,25 +3994,25 @@ function render$a(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$a = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 10,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 150,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 10,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 10,
     group: 'artboard'
   },
@@ -4024,13 +4024,13 @@ const visualOptions$a = {
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -4361,25 +4361,25 @@ function render$b(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$b = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 10,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 10,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 10,
     group: 'artboard'
   },
@@ -4391,13 +4391,13 @@ const visualOptions$b = {
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -4417,7 +4417,7 @@ const visualOptions$b = {
   },
   sortBy: {
     type: 'text',
-    label: 'Sort nodes by',
+    label: 'Trier les noeuds par',
     group: 'chart',
     options: ['Size (descending)', 'Size (ascending)', 'Name', 'Original'],
     default: 'Size (descending)'
@@ -4430,7 +4430,7 @@ const visualOptions$b = {
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleurs',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -4440,7 +4440,7 @@ const visualOptions$b = {
   },
   showHierarchyLabels: {
     type: 'boolean',
-    label: 'Show hierarchy labels',
+    label: 'Afficher la hierarchie des labels',
     default: true,
     group: 'labels'
   },
@@ -4724,37 +4724,37 @@ function render$c(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$c = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 20,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 20,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'Largeur de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -4773,13 +4773,13 @@ const visualOptions$c = {
   },
   barsOrientation: {
     type: 'text',
-    label: 'Bars orientation',
+    label: 'Orientation',
     group: 'chart',
     options: [{
-      label: 'Vertically',
+      label: 'Verticale',
       value: 'vertical'
     }, {
-      label: 'Horizontally',
+      label: 'Horizontale',
       value: 'horizontal'
     }],
     default: 'vertical'
@@ -4805,44 +4805,44 @@ const visualOptions$c = {
   },
   useSameScale: {
     type: 'boolean',
-    label: 'Use same scale',
+    label: 'Utiliser la même échelle',
     default: true,
     group: 'series'
   },
   columnsNumber: {
     type: 'number',
-    label: 'Number of columns',
+    label: 'Nombre de colonnes',
     default: 0,
     group: 'series'
   },
   sortSeriesBy: {
     type: 'text',
-    label: 'Sort series by',
+    label: 'Trier les séries par',
     group: 'series',
     options: ['Total value (descending)', 'Total value (ascending)', 'Name', 'Original'],
     default: 'Total value (descending)'
   },
   showSeriesLabels: {
     type: 'boolean',
-    label: 'Show series titles',
+    label: 'Afficher le titre des séries',
     default: true,
     group: 'series'
   },
   repeatAxesLabels: {
     type: 'boolean',
-    label: 'Repeat axis labels for each series',
+    label: 'Répéter le label des axes pour chaque série',
     default: false,
     group: 'series'
   },
   showGrid: {
     type: 'boolean',
-    label: 'Show series grid',
+    label: 'Afficher la grille des séries',
     default: false,
     group: 'series'
   },
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: 'Echelle de couleur',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -5054,37 +5054,37 @@ function render$d(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$d = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 20,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 20,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -5394,37 +5394,37 @@ function render$e(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$e = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 20,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 20,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -5743,7 +5743,7 @@ function render$f(svgNode, data, visualOptions, mapping, originalData, styles) {
     if (showSeriesLabels) {
       selection.append('text').attr('x', 5).attr('y', 5).text(d => d[0]).styles(styles.seriesLabel);
     }
-  }); // show legends
+  }); // Afficher la légendes
 
   if (showLegend) {
     // svg width is adjusted automatically because of the "container:height" annotation in legendWidth visual option
@@ -5761,25 +5761,25 @@ function render$f(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$f = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 30,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 20,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 0,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 20,
     group: 'artboard'
   },
@@ -5875,13 +5875,13 @@ const visualOptions$f = {
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -6105,25 +6105,25 @@ function graphFromEdgesTable(_edgesTable) {
 const visualOptions$g = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 10,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 10,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 10,
     group: 'artboard'
   },
@@ -6390,25 +6390,25 @@ function render$h(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$h = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 10,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 30,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
@@ -6467,13 +6467,13 @@ const visualOptions$h = {
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -6677,25 +6677,25 @@ function render$i(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$i = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 10,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 30,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
@@ -6725,13 +6725,13 @@ const visualOptions$i = {
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -6935,37 +6935,37 @@ function render$j(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$j = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 50,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 50,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 50,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -7269,37 +7269,37 @@ function render$k(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$k = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 50,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 50,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 50,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -7668,37 +7668,37 @@ function render$l(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$l = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 20,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 20,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 10,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -8041,38 +8041,38 @@ function render$m(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$m = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 50,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 50,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 50,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard',
     requiredDimensions: ['x', 'y', 'group']
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -8486,37 +8486,37 @@ function render$n(svgNode, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$n = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 20,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 10,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 20,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 10,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -8823,37 +8823,37 @@ function overlap(item, g) {
 const visualOptions$o = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 50,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 50,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 50,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -9068,37 +9068,37 @@ function render$p(node, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$p = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 50,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 50,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 50,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 50,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
@@ -9337,25 +9337,25 @@ function render$q(node, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$q = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 20,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 20,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 20,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 20,
     group: 'artboard'
   },
@@ -9547,37 +9547,37 @@ function render$r(node, data, visualOptions, mapping, originalData, styles) {
 const visualOptions$r = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: 'Marge (haut)',
     default: 20,
     group: 'artboard'
   },
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: 'Marge (droite)',
     default: 20,
     group: 'artboard'
   },
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: 'Marge (bas)',
     default: 20,
     group: 'artboard'
   },
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: 'Marge (gauche)',
     default: 20,
     group: 'artboard'
   },
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: 'Afficher la légende',
     default: false,
     group: 'artboard'
   },
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: 'taille de la légende',
     default: 200,
     group: 'artboard',
     disabled: {
