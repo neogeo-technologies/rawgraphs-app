@@ -349,7 +349,7 @@ const visualOptions = {
   },
   showPoints: {
     type: 'boolean',
-    label: 'Show dots on data values',
+    label: 'Afficher des points sur les valeurs de données ',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
@@ -1397,7 +1397,7 @@ const visualOptions$1 = {
   },
   showPoints: {
     type: 'boolean',
-    label: 'Show dots on data values',
+    label: 'Afficher des points sur les valeurs de données ',
     default: false,
     group: 'chart'
   },
@@ -1412,7 +1412,7 @@ const visualOptions$1 = {
   },
   interpolation: {
     type: 'text',
-    label: 'Curve type',
+    label: 'Type de courbe',
     default: 'Linear',
     options: [{
       label: 'Basis',
@@ -5785,7 +5785,7 @@ const visualOptions$f = {
   },
   showDots: {
     type: 'boolean',
-    label: 'Show dots on data values',
+    label: 'Afficher des points sur les valeurs de données ',
     default: true,
     group: 'chart'
   },
@@ -5806,7 +5806,7 @@ const visualOptions$f = {
   },
   interpolation: {
     type: 'text',
-    label: 'Curve type',
+    label: 'Type de courbe',
     default: 'Catmull–Rom',
     options: ['Basis', 'Cardinal', 'Catmull–Rom', 'Linear'],
     group: 'chart'
@@ -6445,14 +6445,14 @@ const visualOptions$h = {
   },
   interpolation: {
     type: 'text',
-    label: 'Curve type',
+    label: 'Type de courbe',
     default: 'Monotone Y',
     options: ['Basis', 'Bundle', 'Cardinal', 'Catmull–Rom', 'Linear', 'Monotone Y', 'Natural', 'Step', 'Step After', 'Step Before'],
     group: 'chart'
   },
   showDots: {
     type: 'boolean',
-    label: 'Show dots on data values',
+    label: 'Afficher des points sur les valeurs de données ',
     default: false,
     group: 'chart'
   },
@@ -7008,7 +7008,7 @@ const visualOptions$j = {
   },
   showPoints: {
     type: 'boolean',
-    label: 'Show dots on data values',
+    label: 'Afficher des points sur les valeurs de données ',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
@@ -7335,7 +7335,7 @@ const visualOptions$k = {
   },
   showPoints: {
     type: 'boolean',
-    label: 'Show dots on data values',
+    label: 'Afficher des points sur les valeurs de données ',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
@@ -7736,7 +7736,7 @@ const visualOptions$l = {
   },
   interpolation: {
     type: 'text',
-    label: 'Curve type',
+    label: 'Type de courbe',
     default: 'curveMonotoneX',
     options: [{
       label: 'Basis',
@@ -8118,7 +8118,7 @@ const visualOptions$m = {
   },
   showPoints: {
     type: 'boolean',
-    label: 'Show dots on data values',
+    label: 'Afficher des points sur les valeurs de données ',
     default: true,
     group: 'chart',
     requiredDimensions: ['x', 'y']
@@ -9132,7 +9132,7 @@ const visualOptions$p = {
   },
   showPoints: {
     type: 'boolean',
-    label: 'Show dots on data values',
+    label: 'Afficher des points sur les valeurs de données ',
     default: false,
     group: 'chart',
     requiredDimensions: ['x', 'y']
@@ -9373,7 +9373,7 @@ const visualOptions$q = {
   },
   interpolation: {
     type: 'text',
-    label: 'Curve type',
+    label: 'Type de courbe',
     default: 'curveMonotoneX',
     options: [{
       label: 'Basis',
