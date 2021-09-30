@@ -2223,7 +2223,7 @@ const visualOptions$4 = {
   },
   showHierarchyLabels: {
     type: 'boolean',
-    label: 'Show hierarchy labels',
+    label: 'Afficher la hierarchie des labels',
     default: true,
     group: 'labels'
   },
@@ -2716,7 +2716,7 @@ const visualOptions$6 = {
   },
   sortNodesBy: {
     type: 'text',
-    label: 'Sort nodes by',
+    label: 'Trier les noeuds par',
     group: 'chart',
     options: [{
       label: 'Size (descending)',
@@ -3402,7 +3402,7 @@ const visualOptions$8 = {
   },
   showHierarchyLabels: {
     type: 'boolean',
-    label: 'Show hierarchy labels',
+    label: 'Afficher la hierarchie des labels',
     default: false,
     group: 'labels'
   }
@@ -3716,7 +3716,7 @@ const visualOptions$9 = {
   },
   showHierarchyLabels: {
     type: 'boolean',
-    label: 'Show hierarchy labels',
+    label: 'Afficher la hierarchie des labels',
     default: false,
     group: 'labels'
   },
@@ -4043,21 +4043,21 @@ const visualOptions$a = {
   },
   layout: {
     type: 'text',
-    label: 'Layout algorythm',
+    label: 'Mise en page',
     group: 'chart',
     options: ['Cluster Dendogram', 'Tree'],
     default: 'Tree'
   },
   sortBy: {
     type: 'text',
-    label: 'Sort nodes by',
+    label: 'Trier les noeuds par',
     group: 'chart',
     options: ['Size (descending)', 'Size (ascending)', 'Name', 'Original'],
     default: 'Size (descending)'
   },
   sizeOnlyLeaves: {
     type: 'boolean',
-    label: 'Size only leaf nodes',
+    label: 'uniquement les noeuds feuille',
     default: true,
     group: 'chart'
   },
@@ -4091,7 +4091,7 @@ const visualOptions$a = {
   },
   showHierarchyLabels: {
     type: 'boolean',
-    label: 'Show hierarchy labels',
+    label: 'Afficher la hierarchie des labels',
     default: true,
     group: 'labels'
   },
@@ -4410,7 +4410,7 @@ const visualOptions$b = {
   },
   layout: {
     type: 'text',
-    label: 'Layout algorythm',
+    label: 'Mise en page',
     group: 'chart',
     options: ['Cluster Dendogram', 'Tree'],
     default: 'Tree'
@@ -4424,7 +4424,7 @@ const visualOptions$b = {
   },
   sizeOnlyLeaves: {
     type: 'boolean',
-    label: 'Size only leaf nodes',
+    label: 'uniquement les noeuds feuille',
     default: true,
     group: 'chart'
   },
@@ -6184,7 +6184,7 @@ const visualOptions$g = {
   },
   orderNodesBy: {
     type: 'text',
-    label: 'Sort nodes by',
+    label: 'Trier les noeuds par',
     group: 'chart',
     options: ['Name', 'Links count (degree)', 'Size', 'Minimize overlaps'],
     default: 'Minimize overlaps'

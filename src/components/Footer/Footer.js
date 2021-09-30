@@ -57,17 +57,10 @@ export default function Footer(props) {
             xl={{ span: 2, offset: 2 }}
           >
             <p>
-              <BsFillEnvelopeFill /> hello at rawgraphs.io
+              
             </p>
             <p>
-              <FaTwitter />{' '}
-              <a
-                href="https://twitter.com/rawgraphs"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                @rawgraphs
-              </a>
+             
             </p>
           </Col>
           <Col
@@ -78,24 +71,10 @@ export default function Footer(props) {
             xl={{ span: 2, offset: 0 }}
           >
             <p>
-              <FaGithub />{' '}
-              <a
-                href="https://github.com/rawgraphs"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
+             
             </p>
             <p>
-              <BsBarChartFill />{' '}
-              <a
-                href="https://old.rawgraphs.io"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RAWGraphs v.1
-              </a>
+              
             </p>
           </Col>
         </Row>
