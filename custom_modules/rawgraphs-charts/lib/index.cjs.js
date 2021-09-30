@@ -1475,7 +1475,7 @@ const visualOptions$1 = {
   },
   showSeriesLabels: {
     type: 'boolean',
-    label: 'Show series titles',
+    label: 'Afficher les titres des séries',
     default: true,
     group: 'series'
   },
@@ -1503,7 +1503,7 @@ const visualOptions$1 = {
   },
   showGrid: {
     type: 'boolean',
-    label: 'Show series grid',
+    label: 'Afficher les grilles des séries',
     default: true,
     group: 'series'
   },
@@ -2719,13 +2719,13 @@ const visualOptions$6 = {
     label: 'Trier les noeuds par',
     group: 'chart',
     options: [{
-      label: 'Size (descending)',
+      label: 'Taille (descendante)',
       value: 'sizeDescending'
     }, {
-      label: 'Size (ascending)',
+      label: 'Taille (ascendante)',
       value: 'sizeAscending'
     }, {
-      label: 'Name',
+      label: 'Nom',
       value: 'name'
     }, {
       label: 'Minimize Overlaps',
@@ -3669,13 +3669,13 @@ const visualOptions$9 = {
     label: 'Sort circles by',
     group: 'chart',
     options: [{
-      label: 'Size (descending)',
+      label: 'Taille (descendante)',
       value: 'descending'
     }, {
-      label: 'Size (ascending)',
+      label: 'Taille (ascendante)',
       value: 'ascending'
     }, {
-      label: 'Original',
+      label: 'Origine',
       value: 'original'
     }],
     default: 'descending'
@@ -3873,10 +3873,10 @@ function render$a(svgNode, data, visualOptions, mapping, originalData, styles) {
   .sum(d => d[1] instanceof Map ? 0 : d[1].size) // sort nodes according to options
   .sort((a, b) => {
     switch (sortBy) {
-      case 'Size (descending)':
+      case 'Taille (descendante)':
         return d3.descending(a.value, b.value);
 
-      case 'Size (ascending)':
+      case 'Taille (ascendante)':
         return d3.ascending(a.value, b.value);
 
       case 'Name':
@@ -4052,8 +4052,8 @@ const visualOptions$a = {
     type: 'text',
     label: 'Trier les noeuds par',
     group: 'chart',
-    options: ['Size (descending)', 'Size (ascending)', 'Name', 'Original'],
-    default: 'Size (descending)'
+    options: ['Taille (descendante)', 'Taille (ascendante)', 'Name', 'Original'],
+    default: 'Taille (descendante)'
   },
   sizeOnlyLeaves: {
     type: 'boolean',
@@ -4232,10 +4232,10 @@ function render$b(svgNode, data, visualOptions, mapping, originalData, styles) {
   .sum(d => d[1] instanceof Map ? 0 : d[1].size) // sort nodes according to options
   .sort((a, b) => {
     switch (sortBy) {
-      case 'Size (descending)':
+      case 'Taille (descendante)':
         return d3.descending(a.value, b.value);
 
-      case 'Size (ascending)':
+      case 'Taille (ascendante)':
         return d3.ascending(a.value, b.value);
 
       case 'Name':
@@ -4419,8 +4419,8 @@ const visualOptions$b = {
     type: 'text',
     label: 'Trier les noeuds par',
     group: 'chart',
-    options: ['Size (descending)', 'Size (ascending)', 'Name', 'Original'],
-    default: 'Size (descending)'
+    options: ['Taille (descendante)', 'Taille (ascendante)', 'Name', 'Original'],
+    default: 'Taille (descendante)'
   },
   sizeOnlyLeaves: {
     type: 'boolean',
@@ -4789,16 +4789,16 @@ const visualOptions$c = {
     label: 'Trier les barres par',
     group: 'chart',
     options: [{
-      label: 'Size (descending)',
+      label: 'Taille (descendante)',
       value: 'totalDescending'
     }, {
-      label: 'Size (ascending)',
+      label: 'Taille (ascendante)',
       value: 'totalAscending'
     }, {
-      label: 'Name',
+      label: 'Nom',
       value: 'name'
     }, {
-      label: 'Original',
+      label: 'Origine',
       value: 'original'
     }],
     default: 'name'
@@ -5137,17 +5137,17 @@ const visualOptions$d = {
       label: 'Total value (ascending)',
       value: 'valueAscending'
     }, {
-      label: 'Name',
+      label: 'Nom',
       value: 'name'
     }, {
-      label: 'Original',
+      label: 'Origine',
       value: 'none'
     }],
     default: 'valueDescending'
   },
   showSeriesLabels: {
     type: 'boolean',
-    label: 'Show series titles',
+    label: 'Afficher les titres des séries',
     default: true,
     group: 'series'
   },
@@ -5159,7 +5159,7 @@ const visualOptions$d = {
   },
   showGrid: {
     type: 'boolean',
-    label: 'Show series grid',
+    label: 'Afficher les grilles des séries',
     default: true,
     group: 'series'
   },
@@ -5478,17 +5478,17 @@ const visualOptions$e = {
       label: 'Total value (ascending)',
       value: 'valueAscending'
     }, {
-      label: 'Name',
+      label: 'Nom',
       value: 'name'
     }, {
-      label: 'Original',
+      label: 'Origine',
       value: 'none'
     }],
     default: 'valueDescending'
   },
   showSeriesLabels: {
     type: 'boolean',
-    label: 'Show series titles',
+    label: 'Afficher les titres des séries',
     default: true,
     group: 'series'
   },
@@ -5500,7 +5500,7 @@ const visualOptions$e = {
   },
   showGrid: {
     type: 'boolean',
-    label: 'Show series grid',
+    label: 'Afficher les grilles des séries',
     default: true,
     group: 'series'
   },
@@ -5853,23 +5853,23 @@ const visualOptions$f = {
       label: 'Total value (ascending)',
       value: 'valueAscending'
     }, {
-      label: 'Name',
+      label: 'Nom',
       value: 'nameAscending'
     }, {
-      label: 'Original',
+      label: 'Origine',
       value: 'none'
     }],
     default: 'valueDescending'
   },
   showSeriesLabels: {
     type: 'boolean',
-    label: 'Show series titles',
+    label: 'Afficher les titres des séries',
     default: true,
     group: 'series'
   },
   showGrid: {
     type: 'boolean',
-    label: 'Show series grid',
+    label: 'Afficher les grilles des séries',
     default: true,
     group: 'series'
   },
@@ -6435,10 +6435,10 @@ const visualOptions$h = {
       label: 'Total value (ascending)',
       value: 'valueAscending'
     }, {
-      label: 'Name',
+      label: 'Nom',
       value: 'name'
     }, {
-      label: 'Original',
+      label: 'Origine',
       value: 'none'
     }],
     default: 'valueDescending'
@@ -7821,13 +7821,13 @@ const visualOptions$l = {
   },
   showSeriesLabels: {
     type: 'boolean',
-    label: 'Show series titles',
+    label: 'Afficher les titres des séries',
     default: true,
     group: 'series'
   },
   showGrid: {
     type: 'boolean',
-    label: 'Show series grid',
+    label: 'Afficher les grilles des séries',
     default: false,
     group: 'series'
   },
@@ -8613,13 +8613,13 @@ const visualOptions$n = {
   },
   showSeriesLabels: {
     type: 'boolean',
-    label: 'Show series titles',
+    label: 'Afficher les titres des séries',
     default: true,
     group: 'series'
   },
   showGrid: {
     type: 'boolean',
-    label: 'Show series grid',
+    label: 'Afficher les grilles des séries',
     default: false,
     group: 'series'
   },
@@ -8869,7 +8869,7 @@ const visualOptions$o = {
     label: 'Sort groups by',
     group: 'chart',
     options: [{
-      label: 'Original',
+      label: 'Origine',
       value: ''
     }, {
       label: 'Start date (ascending)',
@@ -8878,7 +8878,7 @@ const visualOptions$o = {
       label: 'Start date (descending)',
       value: 'descending'
     }, {
-      label: 'Name',
+      label: 'Nom',
       value: 'group'
     }],
     default: ''

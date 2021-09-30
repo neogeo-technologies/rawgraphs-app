@@ -34508,7 +34508,7 @@
     },
     showSeriesLabels: {
       type: 'boolean',
-      label: 'Show series titles',
+      label: 'Afficher les titres des séries',
       default: true,
       group: 'series'
     },
@@ -34536,7 +34536,7 @@
     },
     showGrid: {
       type: 'boolean',
-      label: 'Show series grid',
+      label: 'Afficher les grilles des séries',
       default: true,
       group: 'series'
     },
@@ -36370,13 +36370,13 @@
       label: 'Trier les noeuds par',
       group: 'chart',
       options: [{
-        label: 'Size (descending)',
+        label: 'Taille (descendante)',
         value: 'sizeDescending'
       }, {
-        label: 'Size (ascending)',
+        label: 'Taille (ascendante)',
         value: 'sizeAscending'
       }, {
-        label: 'Name',
+        label: 'Nom',
         value: 'name'
       }, {
         label: 'Minimize Overlaps',
@@ -37324,13 +37324,13 @@
       label: 'Sort circles by',
       group: 'chart',
       options: [{
-        label: 'Size (descending)',
+        label: 'Taille (descendante)',
         value: 'descending'
       }, {
-        label: 'Size (ascending)',
+        label: 'Taille (ascendante)',
         value: 'ascending'
       }, {
-        label: 'Original',
+        label: 'Origine',
         value: 'original'
       }],
       default: 'descending'
@@ -37528,10 +37528,10 @@
     .sum(d => d[1] instanceof Map ? 0 : d[1].size) // sort nodes according to options
     .sort((a, b) => {
       switch (sortBy) {
-        case 'Size (descending)':
+        case 'Taille (descendante)':
           return descending(a.value, b.value);
 
-        case 'Size (ascending)':
+        case 'Taille (ascendante)':
           return ascending(a.value, b.value);
 
         case 'Name':
@@ -37707,8 +37707,8 @@
       type: 'text',
       label: 'Trier les noeuds par',
       group: 'chart',
-      options: ['Size (descending)', 'Size (ascending)', 'Name', 'Original'],
-      default: 'Size (descending)'
+      options: ['Taille (descendante)', 'Taille (ascendante)', 'Name', 'Original'],
+      default: 'Taille (descendante)'
     },
     sizeOnlyLeaves: {
       type: 'boolean',
@@ -37887,10 +37887,10 @@
     .sum(d => d[1] instanceof Map ? 0 : d[1].size) // sort nodes according to options
     .sort((a, b) => {
       switch (sortBy) {
-        case 'Size (descending)':
+        case 'Taille (descendante)':
           return descending(a.value, b.value);
 
-        case 'Size (ascending)':
+        case 'Taille (ascendante)':
           return ascending(a.value, b.value);
 
         case 'Name':
@@ -38074,8 +38074,8 @@
       type: 'text',
       label: 'Trier les noeuds par',
       group: 'chart',
-      options: ['Size (descending)', 'Size (ascending)', 'Name', 'Original'],
-      default: 'Size (descending)'
+      options: ['Taille (descendante)', 'Taille (ascendante)', 'Name', 'Original'],
+      default: 'Taille (descendante)'
     },
     sizeOnlyLeaves: {
       type: 'boolean',
@@ -38432,10 +38432,10 @@
       label: 'Orientation des barres',
       group: 'chart',
       options: [{
-        label: 'Vertically',
+        label: 'Verticale',
         value: 'vertical'
       }, {
-        label: 'Horizontally',
+        label: 'Horizontale',
         value: 'horizontal'
       }],
       default: 'vertical'
@@ -38445,16 +38445,16 @@
       label: 'Trier les barres par',
       group: 'chart',
       options: [{
-        label: 'Size (descending)',
+        label: 'Taille (descendante)',
         value: 'totalDescending'
       }, {
-        label: 'Size (ascending)',
+        label: 'Taille (ascendante)',
         value: 'totalAscending'
       }, {
-        label: 'Name',
+        label: 'Nom',
         value: 'name'
       }, {
-        label: 'Original',
+        label: 'Origine',
         value: 'original'
       }],
       default: 'name'
@@ -38480,7 +38480,7 @@
     },
     showSeriesLabels: {
       type: 'boolean',
-      label: 'Show series titles',
+      label: 'Afficher les titres des séries',
       default: true,
       group: 'series'
     },
@@ -38492,7 +38492,7 @@
     },
     showGrid: {
       type: 'boolean',
-      label: 'Show series grid',
+      label: 'Afficher les grilles des séries',
       default: false,
       group: 'series'
     },
@@ -38794,17 +38794,17 @@
         label: 'Total value (ascending)',
         value: 'valueAscending'
       }, {
-        label: 'Name',
+        label: 'Nom',
         value: 'name'
       }, {
-        label: 'Original',
+        label: 'Origine',
         value: 'none'
       }],
       default: 'valueDescending'
     },
     showSeriesLabels: {
       type: 'boolean',
-      label: 'Show series titles',
+      label: 'Afficher les titres des séries',
       default: true,
       group: 'series'
     },
@@ -38816,7 +38816,7 @@
     },
     showGrid: {
       type: 'boolean',
-      label: 'Show series grid',
+      label: 'Afficher les grilles des séries',
       default: true,
       group: 'series'
     },
@@ -39137,17 +39137,17 @@
         label: 'Total value (ascending)',
         value: 'valueAscending'
       }, {
-        label: 'Name',
+        label: 'Nom',
         value: 'name'
       }, {
-        label: 'Original',
+        label: 'Origine',
         value: 'none'
       }],
       default: 'valueDescending'
     },
     showSeriesLabels: {
       type: 'boolean',
-      label: 'Show series titles',
+      label: 'Afficher les titres des séries',
       default: true,
       group: 'series'
     },
@@ -39159,7 +39159,7 @@
     },
     showGrid: {
       type: 'boolean',
-      label: 'Show series grid',
+      label: 'Afficher les grilles des séries',
       default: true,
       group: 'series'
     },
@@ -39514,23 +39514,23 @@
         label: 'Total value (ascending)',
         value: 'valueAscending'
       }, {
-        label: 'Name',
+        label: 'Nom',
         value: 'nameAscending'
       }, {
-        label: 'Original',
+        label: 'Origine',
         value: 'none'
       }],
       default: 'valueDescending'
     },
     showSeriesLabels: {
       type: 'boolean',
-      label: 'Show series titles',
+      label: 'Afficher les titres des séries',
       default: true,
       group: 'series'
     },
     showGrid: {
       type: 'boolean',
-      label: 'Show series grid',
+      label: 'Afficher les grilles des séries',
       default: true,
       group: 'series'
     },
@@ -40509,10 +40509,10 @@
         label: 'Total value (ascending)',
         value: 'valueAscending'
       }, {
-        label: 'Name',
+        label: 'Nom',
         value: 'name'
       }, {
-        label: 'Original',
+        label: 'Origine',
         value: 'none'
       }],
       default: 'valueDescending'
@@ -42013,13 +42013,13 @@
     },
     showSeriesLabels: {
       type: 'boolean',
-      label: 'Show series titles',
+      label: 'Afficher les titres des séries',
       default: true,
       group: 'series'
     },
     showGrid: {
       type: 'boolean',
-      label: 'Show series grid',
+      label: 'Afficher les grilles des séries',
       default: false,
       group: 'series'
     },
@@ -42809,13 +42809,13 @@
     },
     showSeriesLabels: {
       type: 'boolean',
-      label: 'Show series titles',
+      label: 'Afficher les titres des séries',
       default: true,
       group: 'series'
     },
     showGrid: {
       type: 'boolean',
-      label: 'Show series grid',
+      label: 'Afficher les grilles des séries',
       default: false,
       group: 'series'
     },
@@ -43065,7 +43065,7 @@
       label: 'Sort groups by',
       group: 'chart',
       options: [{
-        label: 'Original',
+        label: 'Origine',
         value: ''
       }, {
         label: 'Start date (ascending)',
@@ -43074,7 +43074,7 @@
         label: 'Start date (descending)',
         value: 'descending'
       }, {
-        label: 'Name',
+        label: 'Nom',
         value: 'group'
       }],
       default: ''
