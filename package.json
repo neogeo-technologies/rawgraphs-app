@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@rawgraphs/rawgraphs-charts": "file:custom_modules/rawgraphs-charts",
-    "@rawgraphs/rawgraphs-core": "file:custom_modules/rawgraphs-core-1.0.0-beta.14",
+    "@rawgraphs/rawgraphs-core": "file:custom_modules/rawgraphs-core",
     "@rdfjs-elements/sparql-editor": "0.1.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
