@@ -1456,20 +1456,20 @@ const visualOptions$1 = {
   },
   columnsNumber: {
     type: 'number',
-    label: 'Number of columns',
+    label: 'Nombre de colonnes',
     default: 0,
     group: 'series'
   },
   sortSeriesBy: {
     type: 'text',
-    label: 'Sort series by',
+    label: 'Trier les séries par',
     group: 'series',
     options: ['Total value (descending)', 'Total value (ascending)', 'Name', 'Original'],
     default: 'Total value (descending)'
   },
   useSameScale: {
     type: 'boolean',
-    label: 'Use same scale',
+    label: 'Utiliser la même échelle',
     default: true,
     group: 'series'
   },
@@ -4786,7 +4786,7 @@ const visualOptions$c = {
   },
   sortBarsBy: {
     type: 'text',
-    label: 'Sort bars by',
+    label: 'Trier les barres par',
     group: 'chart',
     options: [{
       label: 'Size (descending)',
@@ -5116,19 +5116,19 @@ const visualOptions$d = {
   },
   useSameScale: {
     type: 'boolean',
-    label: 'Use same scale',
+    label: 'Utiliser la même échelle',
     default: true,
     group: 'series'
   },
   columnsNumber: {
     type: 'number',
-    label: 'Number of columns',
+    label: 'Nombre de colonnes',
     default: 0,
     group: 'series'
   },
   sortSeriesBy: {
     type: 'text',
-    label: 'Sort series by',
+    label: 'Trier les séries par',
     group: 'series',
     options: [{
       label: 'Total value (descending)',
@@ -5457,19 +5457,19 @@ const visualOptions$e = {
   },
   useSameScale: {
     type: 'boolean',
-    label: 'Use same scale',
+    label: 'Utiliser la même échelle',
     default: true,
     group: 'series'
   },
   columnsNumber: {
     type: 'number',
-    label: 'Number of columns',
+    label: 'Nombre de colonnes',
     default: 0,
     group: 'series'
   },
   sortSeriesBy: {
     type: 'text',
-    label: 'Sort series by',
+    label: 'Trier les séries par',
     group: 'series',
     options: [{
       label: 'Total value (descending)',
@@ -5838,13 +5838,13 @@ const visualOptions$f = {
   },
   columnsNumber: {
     type: 'number',
-    label: 'Number of columns',
+    label: 'Nombre de colonnes',
     default: 0,
     group: 'series'
   },
   sortSeriesBy: {
     type: 'text',
-    label: 'Sort series by',
+    label: 'Trier les séries par',
     group: 'series',
     options: [{
       label: 'Total value (descending)',
@@ -7802,19 +7802,19 @@ const visualOptions$l = {
   },
   useSameScale: {
     type: 'boolean',
-    label: 'Use same scale',
+    label: 'Utiliser la même échelle',
     default: true,
     group: 'series'
   },
   columnsNumber: {
     type: 'number',
-    label: 'Number of columns',
+    label: 'Nombre de colonnes',
     default: 0,
     group: 'series'
   },
   sortSeriesBy: {
     type: 'text',
-    label: 'Sort series by',
+    label: 'Trier les séries par',
     group: 'series',
     options: ['Total value (descending)', 'Total value (ascending)', 'Name', 'Original'],
     default: 'Total value (descending)'
@@ -8594,19 +8594,19 @@ const visualOptions$n = {
   },
   useSameScale: {
     type: 'boolean',
-    label: 'Use same scale',
+    label: 'Utiliser la même échelle',
     default: true,
     group: 'series'
   },
   columnsNumber: {
     type: 'number',
-    label: 'Number of columns',
+    label: 'Nombre de colonnes',
     default: 0,
     group: 'series'
   },
   sortSeriesBy: {
     type: 'text',
-    label: 'Sort series by',
+    label: 'Trier les séries par',
     group: 'series',
     options: ['Total value (descending)', 'Total value (ascending)', 'Name', 'Original'],
     default: 'Total value (descending)'
