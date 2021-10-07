@@ -355,8 +355,8 @@ const ChartOptions = ({
             })}
             {groupName === 'artboard' && visualOptions.showLegend && (
               <p className="small">
-                The final output will be {containerOptions?.width}px *{' '}
-                {containerOptions?.height}px including the legend.
+                La sortie sera de {containerOptions?.width}px *{' '}
+                {containerOptions?.height}px incluant la légende.
               </p>
             )}
           </div>
